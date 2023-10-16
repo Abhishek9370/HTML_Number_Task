@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website_1</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: aqua;
+            position: static;
+            text-align: center;
+            padding-top: 20;
+        }
+        nav{
+            background-color: blue;
+            position: sticky;
+            top: 0;
+        }
+        nav ul li {
+            text-decoration: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+        }
+        article img{
+            width: 100%;
+            height: 600px;
+        }
+        .ronaldo {
+            display: flex;
+            text-align: center;
+        }
+        .img1 {
+            flex: 10;
+            margin: 5px;
+            border: solid 1px red;
+        }
+        .img2 {
+            flex: 10;
+            margin: 5px;
+            border: solid 1px red;
+        }
+        .img3 {
+            flex: 10;
+            margin: 5px;
+            border: solid 1px red;
+        }
+        .img4 {
+            flex: 10;
+            margin: 5px;
+            border: solid 1px red;
+        }
+        aside {
+            margin-top: 1%;
+            display: flex;
+        }
+        .Abhi div {
+            margin: 5px;
+            flex: 50%;
+        }
+        footer{
+            background-color: gray;
+            margin-top: 30px;
+            padding: 40px;
+            margin-bottom: 20px;
+        }
+        footer h1 {
+            text-align: center;
+        }
+        @media (max-width:700px) {
+            .aside,.ronaldo{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>REAL MADRID</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>feedback</li>
+        </ul>
+    </nav>
+    <article>
+        <img src="assest/images/soccer-real-madrid-c-f-real-madrid-logo-wallpaper-preview.jpg" width="100%" alt="">
+    </article>
+    <section id="about" class="ronaldo">
+        <div class="img1">
+            <img src="assest/images/161119230907-ronaldo-atletico-madrid.jpg" alt="" height="400" width="100%">
+            <p><i> ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nam veniam non qui molestiae minus sed quae illo laborum suscipit. Eveniet explicabo corporis vero numquam quos doloremque tempora dolor nihil.</i></p>
+        </div>
+        <div class="img2">
+            <img src="assest/images/download.jpg" alt="" height="400" width="100%">
+            <p><i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nam veniam non qui molestiae minus sed quae illo laborum suscipit. Eveniet explicabo corporis vero numquam quos doloremque tempora dolor nihil.</i></p>
+        </div>
+        <div class="img3">
+            <img src="assest/images/fb9cf27e208db9969f27ae15b40fcc66Y29udGVudHNlYXJjaGFwaSwxNjc2NTg3NjMy-2.66708215.avif" alt="" height="400" width="100%">
+            <p><i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nam veniam non qui molestiae minus sed quae illo laborum suscipit. Eveniet explicabo corporis vero numquam quos doloremque tempora dolor nihil.</i></p>
+        </div>
+        <div class="img4">
+            <img src="assest/images/Sergio-Ramos-1.jpg.webp" alt="" height="400" width="100%">
+            <p><i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nam veniam non qui molestiae minus sed quae illo laborum suscipit. Eveniet explicabo corporis vero numquam quos doloremque tempora dolor nihil.</i></p>
+        </div>
+    </section>
+    <aside id="contact" class="Abhi">
+        <div>
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/kD1FXBjYTVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </iframe>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.6003661282334!2d79.53837767357967!3d11.217175450912407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54d799d8bdb427%3A0x753e85bbdffab797!2sReal%20Madrid%20Football%20Club!5e0!3m2!1sen!2sin!4v1690977019616!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </iframe>
+        </div>
+    </aside>
+    <footer>
+        <h1>CONTACT</h1>
+        <ul id="footer information">
+            <li> mo-no : 9370484707</li>
+            <li>gmail : abhishekdesai@gamil.com</li>
+            <li>whatsap</li>
+            <li>instagram</li>
+        </ul>
+    </footer>
+</body>
+</html>
